@@ -25,3 +25,17 @@ DBMS is needed for data security, recovery and backup of data. It helps in scala
 Database admin (DBA) is a user with the access of whole database and is responsible for maintainance,management and organization of the database system. 
 They are responsible for diagnosing and troubleshooting database related problems and also implementing security measures in the database.
 
+## Database Tier 1 , Tier 2 and Tier 3 architecture :
+#### 1.  Tier 1 architecture :
+![Tier-1](Tier-1.png)
+In this architecture, the database, user interface(client) and the database server all reside in the same machine
+
+#### 2.  Tier 2 architecture :
+![Tier-2](Tier-2.png)
+In this architecture, the presentation layer is present on a client machine such as mobile,tablet, laptop and the database is stored on a server called the second tier. This architecture is much secure than tier-1 because DBMS is not exposed to the client directly.
+
+#### 3.  Tier 3 architecture :
+![Tier-3](Tier-3.png)
+This is the most popular achitecture used. In this architecture, the development and maintainance of functional processes and storage are done independently as seperate modules. There are 3 layers - presentation, application and database server.
+presentation layer is the client side which is responsible for user interation
+application layer is the middleware layer which communicates the request of users to the database server
