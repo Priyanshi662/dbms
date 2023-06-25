@@ -33,3 +33,6 @@ The candidate keys other than the primary key are called alternate keys.
 
 ### Composite key /Compound key :
 A composite key is the key having two or more attributes that together can uniquely identify a tuple in a table.Such keys are needed in joined tables . For example a table containing customer and product details may have customer_id+product_id as a composite key for the table.
+
+### Unique Key :
+Unique Keys are the keys that define the record uniquely in the table. It is different from Primary Keys, as Unique Key can contain one NULL value but Primary Key does not contain any NULL values.
